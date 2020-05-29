@@ -1,0 +1,9 @@
+{
+  "pat_snusk" : {
+    "senderName" : "hehehe snusk",
+    "portraitImage" : "/pat/snusk/snusk.png:<frame>",
+    "text" : "hehehe snusk",
+		"important" : true,
+    "unique" : false
+  }
+}
