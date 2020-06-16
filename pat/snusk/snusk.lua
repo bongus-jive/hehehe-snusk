@@ -1,16 +1,14 @@
-local initbutsexy = init
-local updatebutsexy = update
+local snusk_init = init
+local snusk_update = update
 
 function init()
-	initbutsexy()
+	snusk_init()
 	
 	self.snuskTimer = math.random(120, 300)
-	
-	script.setUpdateDelta(5)
 end
 
 function update(dt)
-	updatebutsexy(dt)
+	snusk_update(dt)
 	
 	self.snuskTimer = math.max(0, self.snuskTimer - dt)
 	
