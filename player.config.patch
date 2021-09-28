@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/companionsConfig/scripts/-",
+    "path": "/genericScriptContexts/snusk",
     "value": "/pat/snusk/snusk.lua"
   }
 ]
