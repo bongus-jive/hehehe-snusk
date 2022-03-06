@@ -5,7 +5,7 @@ function update(dt)
 	
 	if snuskTimer == 0 then
 		snuskTimer = math.random(240, 600)
-		if math.random(1, 1000) == 1 then
+		if math.random(1, 800) == 1 then
 			player.radioMessage("pat_snusk")
 		end
 	end
